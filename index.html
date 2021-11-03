@@ -5,7 +5,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=table__cell_theme_dark table__cell.0">
+  <meta name="autor" content="David Kaplan">
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
   <title>Learning how to learn</title>
@@ -20,7 +21,7 @@
       <h1 class="header__title">Learning How to Learn</h1>
       <p class="header__subtitle">The most effective, cutting-edge learning
         techniques that you can apply to your daily life.<br><a class="header__link" href="#">Learn more →</a></p>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic"/>
       <img class="header__main-illustration" src="./images/header-image.png"
       alt="Epic ponderer stood on a mountaintop
       deliberating over the finer points of the modern educational
@@ -121,32 +122,53 @@
       </section>
 
       <section class="kaufman">
-        <h1>Ten principles of rapid skill
+        <h1 class="section-title
+                    section-title__theme_dark
+                    header_and_sub_width
+                    auto_side_margins">Ten principles of rapid skill
           acquisition </h1>
-        <h5>by Josh Kaufman
+
+        <h5 class="section-subtitle
+                    section-subtitle__theme_dark
+                    header_and_sub_width
+                    auto_side_margins">by Josh Kaufman
         </h5>
 
-        <ul class="table">
-          <li class="1"><h5>1</h5><p>Choose a lovable
+        <ul class="table table__theme_dark auto_side_margins">
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">1</h5>
+            <p class="table__text_theme_dark">Choose a lovable
             project</p></li>
-          <li class="1"><h5>2</h5><p>Focus your energy on
+          <li class="table__cell table__cell_theme_dark "><h5 class="table__heading_theme_dark">2</h5>
+            <p class="table__text_theme_dark">Focus your energy on
             one skill at a time</p></li>
-          <li class="1"><h5>3</h5><p>Define your target
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">3</h5>
+            <p class="table__text_theme_dark">Define your target
             performance level</p></li>
-          <li class="1"><h5>4</h5><p>Deconstruct the skill into
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">4</h5>
+            <p class="table__text_theme_dark">Deconstruct the skill into
             sub-skills</p></li>
-          <li class="1"><h5>5</h5><p>Obtain critical tools</p></li>
-          <li class="1"><h5>6</h5><p>Eliminate barriers to
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">5</h5>
+            <p class="table__text_theme_dark">Obtain critical tools</p></li>
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">6</h5>
+            <p class="table__text_theme_dark">Eliminate barriers to
             practice</p></li>
-          <li class="1"><h5>7</h5><p>Make dedicated time for
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">7</h5>
+            <p class="table__text_theme_dark">Make dedicated time for
             practice</p></li>
-          <li class="1"><h5>8</h5><p>Create fast feedback
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">8</h5>
+            <p class="table__text_theme_dark">Create fast feedback
             loops</p></li>
-          <li class="1"><h5>9</h5><p>Practice by the clock in
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">9</h5>
+            <p class="table__text_theme_dark">Practice by the clock in
             short bursts</p></li>
-          <li class="1"><h5>10</h5><p>Emphasize quantity and
+          <li class="table__cell table__cell_theme_dark"><h5 class="table__heading_theme_dark">10</h5>
+            <p class="table__text_theme_dark">Emphasize quantity and
             speed</p></li>
         </ul>
+
+        <img src="../web_project_1/images/kaufman-triangle.svg" class="kaufman__triangle"
+        alt="A big blue triangle, over which Josh
+        Kaufman claims ownership"/>
       </section>
     </main>
 
@@ -155,22 +177,22 @@
 
         <div class="footer__column_content_copyright">
           <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="practicum logo in footer">
-         <p class="footer__autor">© David Kaplan</p>
+          <p class="footer__autor">© 2021 David Kaplan</p>
        </div>
 
         <div class="footer__column_content_about">
-         <h6 class="footer_column-heading">About Practicum by Yandex</h6>
          <ul class="footer__list">
+            <h3 class="footer_column-heading">About Practicum by Yandex</h3>
             <li><a href="#" class="footer__column-link">Homepage</a></li>
             <li><a href="#" class="footer__column-link">Mission</a></li>
             <li><a href="#" class="footer__column-link">Proffesions</a></li>
           </ul>
         </div>
 
-        <div class="footer__social-icons">
-          <h6 class="footer_column-heading">Social Media</h6>
-          <a href="#" class="footer__column-link"><img src="./images/facebook_white.svg" alt="Facebook Icon"/>Facebook</a>
-          <a href="#" class="footer__column-link"><img src="./images/instagram_white.svg" alt="instagram icon"/>Instagram</a>
+        <div class="footer__column_content_social">
+            <h3 class="footer_column-heading">Social Media</h3>
+            <a href="#" class="footer__column-link "><img src="./images/facebook_white.svg" alt="Facebook Icon" class="footer__social-icons"/>Facebook</a><br>
+           <a href="#" class="footer__column-link"><img src="./images/instagram_white.svg" alt="instagram icon" class="footer__social-icons"/>Instagram</a>
         </div>
 
       </div>
