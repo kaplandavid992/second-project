@@ -55,6 +55,7 @@ z-index: 5;
 
 .header__link {
  color:  #2F80ED;
+ display: block;
 }
 
 .header__main-illustration {
