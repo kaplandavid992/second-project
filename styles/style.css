@@ -71,7 +71,7 @@ margin-bottom: 0;
 
 }
 
-.header__square-pic {
+.header__square {
   position: absolute;
   margin-top: 64px;
   right: 0;
@@ -119,7 +119,7 @@ margin-bottom: 0;
   margin-bottom: 30px;
 }
 
-.two-columns__main-text_span-accent {
+.two-columns__span-accent {
  font-weight: bold;
  margin-top: 0;
  margin-bottom: 0;
@@ -382,7 +382,7 @@ margin-bottom: 0;
   flex-direction: column;
 }
 
-.footer_column-heading{
+.footer__column-heading{
   line-height: 30px;
   font-weight: bold;
   font-size: 18px;
