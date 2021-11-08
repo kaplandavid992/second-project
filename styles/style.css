@@ -363,7 +363,6 @@
 .footer__list {
   display: flex;
   flex-direction: column;
-  list-style: none;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
