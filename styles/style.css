@@ -111,7 +111,7 @@
   margin-top: 0;
 }
 
-.two-columns__paragraph:nth-last-of-type {
+.two-columns__main-text :last-child {
   margin-bottom: 0;
 }
 
@@ -237,8 +237,6 @@
 
 .kaufman {
   position: relative;
-  padding-top: 90px;
-  padding-bottom: 90px;
   background-color: #1f1f1f;
   color: white;
   overflow: hidden;
@@ -247,11 +245,14 @@
 .section-title_theme_dark {
   z-index: 4;
   position: relative;
+  color: white;
+  margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
   z-index: 4;
   position: relative;
+  color: white;
 }
 
 .table_theme_dark {
@@ -259,6 +260,7 @@
   row-gap: 80px;
   flex: 0 0 20%;
   margin-top: 80px;
+  margin-bottom: 90px;
 }
 
 .table__heading_theme_dark {
