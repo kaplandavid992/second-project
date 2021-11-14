@@ -92,13 +92,16 @@ a:hover { /*change to pseudo clss*/
   animation: rotation 20s  infinite linear;
 }
 
-/* two-column section */
+/* description */
+.description {
+  margin-bottom:100px;
+}
+/* two-column (block type) */
 
 .two-columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 100px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -162,6 +165,7 @@ margin: 60px 40px 43px 40px;
 }
 
 .cards__title {
+ text-align: center;
 margin-bottom: 16px;
 line-height: 1.15;
 font-size: 24px;
@@ -169,9 +173,86 @@ font-weight: bold;
 }
 
 .cards__description {
+  text-align: center;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
+}
+/*video section */
+.video {
+  height: 429px;
+  overflow: visible;
+
+}
+
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  column-gap: 20px;
+  width: 1050px;
+  overflow: inherit;
+  height: 256px;
+}
+
+.video__iframe {
+height: 316px;
+width: 515px;
+}
+
+/* oakley section*/
+.oakley {
+  background-color: #f2f2f2;
+  padding-top:160px;
+}
+
+
+
+/* feynman section */
+
+.feynman {
+  position: relative;
+  background-image: url("../images/feynman.png");
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  min-height: 790px;
+  background-color: #f2f2f2;
+  background-position-x: left;
+  background-position-y: bottom;
+  margin-bottom: 100px;
+}
+
+.feynman__title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  width: 775px;
+  padding-top: 100px;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.feynman__link {
+  align-self: center;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-weight: normal;
+  font-size: 36px;
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 /* digit section */
@@ -242,50 +323,82 @@ font-weight: bold;
   margin-bottom: 0;
 }
 
-/* feynman section */
-
-.feynman {
+/* khan section*/
+.khan {
+  background-color:#f2f2f2;
   position: relative;
-  background-image: url("../images/feynman.png");
-  background-repeat: no-repeat;
-  background-size: 867px 637px;
-  min-height: 790px;
-  background-color: #f2f2f2;
-  background-position-x: left;
-  background-position-y: bottom;
 }
 
-.feynman__title {
-  text-align: center;
+.khan__container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
   margin: 0 auto;
-  font-size: 120px;
-  font-weight: bold;
+  padding-top: 105px;
+}
+
+.khan__author{
+  line-height: 42px;
+   font-size: 30px;
+   font-weight: normal;
+   margin-top: 0;
+}
+
+.khan__title {
   line-height: 1.15;
-  width: 775px;
-  padding-top: 100px;
+   font-size: 60px;
+   font-weight: bold;
+   margin-bottom: 50px;
+   margin-top: 0;
 }
 
-.feynman__subtitle {
-  line-height: 51px;
-  font-weight: normal;
-  font-size: 36px;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 70px;
+.khan__quote {
+  line-height: 34px;
+   font-size: 24px;
+   font-weight: normal;
+   width: 790px;
+   margin-bottom: 36px;
 }
 
-.feynman__link {
-  align-self: center;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  line-height: 51px;
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.khan__quote-author-subline{
+  line-height: 1.15;
+  font-size: 24px;
   font-weight: normal;
-  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 68px;
+}
+
+.khan__book-container{
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+  position: relative;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: 0 2%;
+}
+
+.khan__buy-link {
+  display: inline;
+  position: relative;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
   color: #2f80ed;
-  text-decoration: none;
 }
-
 /* kaufman section */
 
 .kaufman {
@@ -344,7 +457,29 @@ font-weight: bold;
   position: absolute;
   right: -124px;
   top: 0;
+  animation: rotation 20s  infinite linear;
 }
+
+/* resources section*/
+.resources {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  margin: 80px auto 217px;
+  width: 1100px;
+}
+
+.resources__logo {
+ width: 270px;
+ height: 38px;
+}
+
+
 
 /* footer section */
 .footer {
