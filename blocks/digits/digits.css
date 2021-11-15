@@ -1,0 +1,6 @@
+/* digit section */
+
+.digits {
+  display: flex;
+  flex-direction: column;
+}
