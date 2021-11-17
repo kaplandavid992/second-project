@@ -9,4 +9,5 @@
 
 .footer__column-link:hover {
   opacity: 0.5;
+  transition: ease-in 0.7s;
 }
