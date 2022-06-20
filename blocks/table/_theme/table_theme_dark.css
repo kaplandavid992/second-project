@@ -1,0 +1,7 @@
+.table_theme_dark {
+  column-gap: 25px;
+  row-gap: 80px;
+  flex: 0 0 20%;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}

@@ -1,0 +1,9 @@
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  overflow-wrap: break-word;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
